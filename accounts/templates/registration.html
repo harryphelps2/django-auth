@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block page_title %}Registration page{% endblock %}
+{% block page_header %}Register{% endblock %}
+{% block content %}
+    <div class="row">
+        <form method='POST'>
+            {% csrf_token %}
+            {{ registration_form.as_p }}
+            <button type="submit">Register</button>
+        </form>
+    </div>
+{% endblock %}
