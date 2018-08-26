@@ -19,3 +19,5 @@ then
 2. Install django
 
 ```pip install django```
+
+[![Build Status](https://travis-ci.org/harryphelps2/django-auth.svg?branch=master)](https://travis-ci.org/harryphelps2/django-auth)
