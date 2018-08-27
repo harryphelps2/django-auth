@@ -1,2 +1,4 @@
 Django==2.1
 pytz==2018.5
+django-forms-bootstrap==3.1.0
+

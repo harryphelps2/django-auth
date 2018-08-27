@@ -8,5 +8,4 @@ urlpatterns = [
     re_path(r'^$', index, name="index"),
     re_path(r'^accounts/register/', user_registration, name="register"),
     re_path(r'^accounts/profile/', user_profile, name="profile"),
-    re_path(r'^accounts/login/', user_login, name="login"),
 ]
