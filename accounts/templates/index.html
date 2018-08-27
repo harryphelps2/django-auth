@@ -2,9 +2,5 @@
 {% block page_title %}Home page{% endblock %}
 {% block page_header %}Home{% endblock %}
 {% block content %}
-    <div>
-        {% if user.is_authenticated %}
-            <h2>Welcome {{user.username}}</h2>
-        {% endif %}
-    </div>
+
 {% endblock %}
